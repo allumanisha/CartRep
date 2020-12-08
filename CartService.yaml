@@ -13,12 +13,12 @@ spec:
         app: Cartservice
     spec:
       containers:
-      - name: cartservicerepos
-        image: truyumcr.azurecr.io/cartservicerepos:latest
+      - name: cartservicerepost
+        image: casecr.azurecr.io/cartservicerepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
-      - name: dsconfigsn
+      - name: dsconsigsn
 
 ---
 apiVersion: v1
